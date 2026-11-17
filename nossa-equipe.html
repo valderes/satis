@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa Equipe | Clínica Satis em Joinville</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { satis: { bg: '#F9F8F6', sand: '#F2EFE9', dark: '#1A2E3B', gold: '#C5A059', muted: '#3A3532' } },
+                    fontFamily: { sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-satis-bg text-satis-muted font-sans antialiased">
+    <!-- Header Padronizado -->
+    <header class="sticky top-0 z-50 bg-satis-bg/95 backdrop-blur-md border-b border-satis-sand">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="index.html" class="font-bold tracking-widest text-lg text-satis-dark uppercase">Clínica Satis</a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-satis-dark">
+                <a href="a-clinica.html" class="hover:text-satis-gold transition-colors">A Clínica</a>
+                <a href="nossa-equipe.html" class="text-satis-gold font-semibold">Nossa Equipe</a>
+                <a href="tratamentos.html" class="hover:text-satis-gold transition-colors">Tratamentos</a>
+                <a href="causas-infertilidade.html" class="hover:text-satis-gold transition-colors">Infertilidade</a>
+                <a href="blog.html" class="hover:text-satis-gold transition-colors">Blog</a>
+            </nav>
+            <a href="https://wa.me/5547988242264" target="_blank" class="bg-satis-dark text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-satis-gold transition-all">Fale Conosco</a>
+        </div>
+    </header>
+
+    <main class="py-16 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="inline-block uppercase tracking-widest text-xs font-semibold text-satis-gold bg-satis-sand px-4 py-2 rounded-full mb-4">Corpo Clínico</span>
+            <h1 class="text-4xl md:text-5xl font-bold text-satis-dark mb-6">Especialistas Dedicados à Sua Família</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div class="bg-white p-8 rounded-2xl border border-satis-sand text-center space-y-4 shadow-sm">
+                <div class="w-48 h-48 mx-auto rounded-2xl overflow-hidden shadow-lg bg-white"><img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=600" alt="Dr. Fábio" class="w-full h-full object-cover object-top"></div>
+                <h3 class="text-2xl font-bold text-satis-dark">Dr. Fábio Choma</h3>
+                <p class="text-sm text-satis-gold font-medium">CRM 10180</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl border border-satis-sand text-center space-y-4 shadow-sm">
+                <div class="w-48 h-48 mx-auto rounded-2xl overflow-hidden shadow-lg bg-white"><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=600" alt="Dra. Ana" class="w-full h-full object-cover object-top"></div>
+                <h3 class="text-2xl font-bold text-satis-dark">Dra. Ana Sílvia Teixeira Choma</h3>
+                <p class="text-sm text-satis-gold font-medium">CRM 11144</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé Unificado -->
+    <footer class="bg-[#12212b] text-satis-sand py-12 text-sm border-t border-white/10 mt-20">
+        <div class="max-w-7xl mx-auto px-6 text-center space-y-6">
+            <div itemscope itemtype="https://schema.org/MedicalClinic" class="h-card">
+                <p class="font-semibold text-white mb-2"><span class="p-org">Clínica Satis</span> — Centro de Reprodução Assistida de Joinville</p>
+                <p class="p-street-address">Rua Blumenau, 64 - Sala 1108 - Edifício Adville - Joinville - SC</p>
+                <p>Telefones: <span class="p-tel">(47) 3455-5298</span> | <span class="p-tel">(47) 3423-2355</span> | WhatsApp: <span class="p-tel">(47) 98824-2264</span></p>
+                <p>E-mail: <a href="mailto:contato@clinicasatis.com.br" class="u-email text-satis-gold hover:underline">CONTATO@CLINICASATIS.COM.BR</a></p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6 pt-4 text-xs text-satis-sand/70">
+                <a href="a-clinica.html" class="hover:text-white">A Clínica</a>
+                <a href="nossa-equipe.html" class="hover:text-white">Nossa Equipe</a>
+                <a href="tratamentos.html" class="hover:text-white">Tratamentos</a>
+                <a href="causas-infertilidade.html" class="hover:text-white">Infertilidade</a>
+                <a href="blog.html" class="hover:text-white">Blog</a>
+            </div>
+            <div class="border-t border-white/10 pt-6 text-xs text-satis-sand/50">&copy; 2026 Clínica Satis. Todos os direitos reservados.</div>
+        </div>
+    </footer>
+</body>
+</html>
